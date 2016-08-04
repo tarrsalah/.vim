@@ -1,7 +1,7 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 set t_Co=256
-colorscheme xoria256
+" colorscheme xoria256
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -68,12 +68,12 @@ syntax on
 
  
 " set the runtime path to include Vundle and initialize
+filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
-Plugin 'gcmt/wildfire.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'Townk/vim-autoclose'
 Plugin '2072/PHP-Indenting-for-VIm'
